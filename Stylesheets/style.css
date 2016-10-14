@@ -1,0 +1,121 @@
+#top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+	height: 100px;
+	z-index: 99999;
+	background: #ffffff;
+	display: block;
+}
+#logo {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 35px;
+	z-index: 99999;
+	width: 100px;
+	height: 100px;
+}
+#logoshadow {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 36px;
+	z-index: 5;
+	width: 98px;
+	height: 98px;
+	background: black;
+	border-radius: 100px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5)
+}
+#logo:hover {
+	cursor: pointer;
+}
+#redtext {
+	color: #b32d00;
+}
+nav {
+	display: block;
+	z-index: 99999;
+}
+ul {
+	list-style: none;
+}
+li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 38px 40px 10px 0px;
+	float: right;
+	color: #bfbfbf;
+	font-family: 'Dosis', sans-serif;
+}
+li a:hover {
+    transform: scale(1.1);
+}
+#dock2 {
+	width: 100%;
+	bottom: 50px;
+	position: absolute;
+	left: 0px;
+}
+.dock-container2 {
+	position: absolute;
+	height: 50px;
+	background: url(../images/dock-bg.png);
+	padding-left: 20px;
+}
+a.dock-item2 {
+	display: block; 
+	font: bold 20px 'Dosis', sans-serif;
+	width: 40px; 
+	color: #ffffff; 
+	bottom: 0px; 
+	position: absolute;
+	text-align: center;
+	text-decoration: none;
+}
+.dock-item2 span {
+	display: none;
+	padding-left: 20px;
+}
+.dock-item2 img {
+	border: none; 
+	margin: 5px 10px 0px; 
+	width: 100%; 
+}
+#foot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: url(../images/foot-bg.png);
+	height: 50px;
+}
+#homepic {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+h1 {
+	z-index: 99999;
+	position: absolute;
+	top: 250px;
+	right: 200px;
+	font: 60px 'Josefin Sans', sans-serif;
+	color: #ffffff;
+	border-bottom: 2px dotted white;
+}
+h6 {
+	z-index: 99999;
+	position: absolute;
+	top: 290px;
+	right: 210px;
+	font: bold 30px 'Great Vibes', cursive;
+	color: #ffffff;
+}

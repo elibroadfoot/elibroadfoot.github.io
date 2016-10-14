@@ -1,0 +1,24 @@
+.page {
+	color: blue;
+}
+
+.trump {
+	border: 25px double pink;
+	width: 500px;
+}
+
+#gma {
+    border: 3px double blue;
+    background-color: orange;
+    color: yellow;
+}
+
+.cool {
+	border: 4px double black;
+}
+
+.cool:hover {
+	border: 4px double white;
+	background-color: black;
+	color: white;
+}

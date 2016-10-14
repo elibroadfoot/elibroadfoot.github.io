@@ -1,0 +1,134 @@
+#top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+	height: 100px;
+	z-index: 99999;
+	background: #ffffff;
+	display: block;
+}
+#logo {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 35px;
+	z-index: 99999;
+	width: 100px;
+	height: 100px;
+}
+#logoshadow {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 36px;
+	z-index: 5;
+	width: 98px;
+	height: 98px;
+	background: black;
+	border-radius: 100px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5)
+}
+#logo:hover {
+	cursor: pointer;
+}
+#redtext {
+	color: #b32d00;
+}
+nav {
+	display: block;
+	z-index: 99999;
+}
+ul {
+	list-style: none;
+}
+li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 38px 40px 10px 0px;
+	float: right;
+	color: #bfbfbf;
+	font-family: 'Dosis', sans-serif;
+}
+li a:hover {
+    transform: scale(1.1);
+}
+#foot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: url(../images/foot-bg.png);
+	height: 50px;
+}
+#homepic {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#fileright {
+	float: right;
+	clear: right;
+	width: 65%;
+	height: 350px;
+	border: 5px double #b32d00;
+	border-radius: 20px;
+	position: relative;
+	top: 50px;
+	margin: 100px 0 0 0;
+}
+#fileleft {
+	float: left;
+	clear: left;
+	width: 65%;
+	height: 350px;
+	border: 5px double #b32d00;
+	border-radius: 20px;
+	position: relative;
+	top: 50px;
+	margin: 100px 0 0 0;
+}
+#filehead {
+    color: #b32d00;
+    background: #bfbfbf;
+    text-align: center;
+    font: 30px 'Dosis', sans-serif;
+    position: relative;
+    top: -30px;
+    border-radius: 15px 15px 0 0;
+    height: 40px;
+    border-bottom: 2px solid #b32d00;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#filetext {
+    font: 20px 'Josefin Sans', sans-serif;
+    color: #b32d00;
+    text-align: center;
+    margin: 0 20px 20px 20px;
+    position: relative;
+    top: -40px;
+}
+#fileimage {
+	text-align: center;
+}
+#fileimage img {
+	position: relative;
+    top: -40px;
+    width: auto;
+    height: 200px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    opacity: .5;
+    transition: opacity .3s ease-out;
+    transition: transform .3s ease-out;
+}
+#fileimage img:hover {
+	transform: scale(1.01);
+	opacity: 1;
+}

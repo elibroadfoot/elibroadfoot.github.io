@@ -1,0 +1,135 @@
+#top {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5);
+	height: 100px;
+	z-index: 99999;
+	background: #ffffff;
+	display: block;
+}
+#logo {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 35px;
+	z-index: 99999;
+	width: 100px;
+	height: 100px;
+}
+#logoshadow {
+	margin: 25px 25px 0 0;
+	position: fixed;
+	top: 5px;
+	left: 36px;
+	z-index: 5;
+	width: 98px;
+	height: 98px;
+	background: black;
+	border-radius: 100px;
+	box-shadow: 0 8px 8px 0 rgba(0,0,0,0.5)
+}
+#logo:hover {
+	cursor: pointer;
+}
+#redtext {
+	color: #b32d00;
+}
+nav {
+	display: block;
+	z-index: 99999;
+}
+ul {
+	list-style: none;
+}
+li a {
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+	margin: 38px 40px 10px 0px;
+	float: right;
+	color: #bfbfbf;
+	font-family: 'Dosis', sans-serif;
+}
+li a:hover {
+    transform: scale(1.1);
+}
+#foot {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background: url(../images/foot-bg.png);
+	height: 50px;
+}
+#homepic {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#box {
+	width: 65%;
+	height: 600px;
+	border: 5px double #b32d00;
+	border-radius: 20px;
+	position: relative;
+	top: 60px;
+	margin: 100px auto 0 auto;
+}
+#boxhead {
+    color: #b32d00;
+    background: #bfbfbf;
+    text-align: center;
+    font: 30px 'Dosis', sans-serif;
+    position: relative;
+    top: -30px;
+    border-radius: 15px 15px 0 0;
+    height: 40px;
+    border-bottom: 2px solid #b32d00;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+#boxtext {
+    font: 40px 'Josefin Sans', sans-serif;
+    color: #bfbfbf;
+    text-align: center;
+    margin: 40px;
+    position: relative;
+    top: 30px;
+    background: #b32d00;
+    width: 430px;
+    padding: 20px;
+    border-radius: 25px;
+}
+#boxtext:after {
+	content: '';
+    position: absolute;
+    left: 470px;
+    top: 100px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 10px solid #b32d00;
+}
+#slideshow { 
+    background: #ffffff;
+    position: relative; 
+    width: 240px; 
+    height: 320px; 
+    border: 10px solid #000000; 
+    box-shadow: 0 0 20px rgba(0,0,0,0.6); 
+    float: right;
+    margin: 40px 100px 40px 40px;
+}
+
+#slideshow > div { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    right: 0; 
+    bottom: 0; 
+}

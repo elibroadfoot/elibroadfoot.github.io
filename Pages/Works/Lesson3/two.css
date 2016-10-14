@@ -1,0 +1,228 @@
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+	font-family: "zocial", sans-serif;
+}
+#social ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+#social {
+	left: 0;
+	position: fixed;
+	bottom: 0;
+}
+#social a {
+	text-decoration: none;
+	background: #333;
+	color: #fff;
+	display: block;
+	height: 35px;
+	font: 16px "Open Sans", sans-serif;
+	line-height: 35px;
+	position: relative;
+	text-align: center;
+	width: 35px;
+}
+#social a span {
+	line-height: 35px;
+	left: -120px;
+	position: absolute;
+	text-align: center;
+	width: 120px;
+}
+#social a:hover span {
+	left: 100%;
+}
+#social a[class*="facebook"],
+#social a[class*="facebook"]:hover,
+#social a[class*="facebook"] span { background: #3b5998; }
+
+#social a[class*="twitter"],
+#social a[class*="twitter"]:hover,
+#social a[class*="twitter"] span { background: #00aced; }
+
+#social a[class*="instagram"],
+#social a[class*="instagram"]:hover,
+#social a[class*="instagram"] span { background: #ff4500; }
+
+#social a[class*="github"],
+#social a[class*="github"]:hover,
+#social a[class*="github"] span { background: #000000; }
+
+#nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  font-family: "Lucida Console", monospace;
+  font-size: 30px;
+}
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+#nav li {
+  margin: 0px;
+  float: left;
+}
+#nav li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  background-color: transparent;
+}
+#nav li a:hover {
+  color: #FFFFFF;
+}
+html {
+  background-color: black;
+}
+
+#drop {
+    background-color: black;
+    list-style: none;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+    border-bottom: 4px solid skyblue;
+}
+#drop li {
+    float: left;
+    padding: 0 0 20px 0;
+}
+
+#drop a {
+    float: left;
+    padding: 0 15px;
+    color: skyblue;
+    font: 30px Baskerville,"Baskerville Old Face","Hoefler Text",Garamond,"Times New Roman",serif;
+    text-decoration: none;
+}
+
+#drop li:hover > a {
+    color: blue;
+    transition: color .1s;
+}
+
+#drop li:hover > ul {
+    display: block;
+}
+
+#drop ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;    
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 108px;
+    z-index: 99999;    
+    background-color: white;    
+    -moz-border-radius: 15px;
+    border-radius: 6px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#drop ul li {
+    float: none;
+    margin: 0;
+    padding: 0;
+    display: block;  
+}
+
+#drop ul li:last-child { 
+    box-shadow: none;    
+}
+
+#drop ul a {    
+    padding: 10px;
+    height: auto;
+    line-height: 1.2;
+    display: block;
+    white-space: nowrap;
+    float: none;
+    text-transform: none;
+    width: 200px;
+}
+
+#drop ul a:hover {
+    background-color: lightgrey;
+    transition: background-color .1s;
+}
+
+#drop ul li:first-child a {
+    border-radius: 6px 6px 0 0;
+}
+
+#drop ul li:first-child a:after {
+    content: '';
+    position: absolute;
+    left: 41px;
+    top: -10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+}
+
+#drop ul li:first-child a:hover:after {
+    border-bottom-color: lightgrey; 
+    transition: border-bottom-color .1s;
+}
+
+#drop ul li:last-child a {
+    border-radius: 0 0 6px 6px;
+}
+
+#drop:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+.left {
+  float: left;
+  width: 450px;
+  display: block;
+  background-color: white;
+  border: 5px solid skyblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px;
+  position: relative;
+  left: 100px;
+  top: 25px;
+}
+.right {
+  float: right;
+  width: 450px;
+  display: block;
+  background-color: white;
+  border: 5px solid skyblue;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px;
+  position: relative;
+  right: 100px;
+  top: 25px;
+}

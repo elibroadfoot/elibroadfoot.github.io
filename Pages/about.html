@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/about.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis|Great+Vibes|Josefin+Sans" rel="stylesheet">
+    <script type="text/javascript" src="../javascript/jquery.js"></script>
+    <script type="text/javascript" src="../javascript/interface.js"></script>
+  </head>
+  <body>
+
+    <div id="logoshadow"></div>
+    <div id="top">
+      <a href="index.html"><img id="logo" src="../images/logo.png"></a>
+      <nav>
+        <ul>
+          <li><a href="../pages/contact.html">&lt; <span id="redtext">contact</span> &gt;</a></li>
+          <li><a href="../pages/about.html">&lt; <span id="redtext">about</span> &gt;</a></li>
+          <li><a href="../pages/portfolio.html">&lt; <span id="redtext">portfolio</span> &gt;</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <div id="box">
+      <h3 id="boxhead">&lt; about me &gt;</h3>
+      
+      <div id="slideshow">
+        <div>
+          <img src="../images/eli.jpg">
+        </div>
+        <div>
+          <img src="../images/eli2.jpg">
+        </div>
+        <div>
+          <img src="../images/eli3.jpg">
+        </div>
+        <div>
+          <img src="../images/eli4.jpg">
+        </div>
+        <div>
+          <img src="../images/eli5.jpg">
+        </div>
+      </div>
+
+      <p id="boxtext">
+        I am a beginner web developer and designer. I have some experience in HTML, CSS, Javascript, and jQuery as well as some photo editing experience using Photoshop.
+      </p>
+
+    </div>
+
+    <div id="foot"></div>
+    <script>
+      $("#slideshow > div:gt(0)").hide();
+
+      setInterval(function() { 
+        $('#slideshow > div:first')
+          .fadeOut(1000)
+          .next()
+          .fadeIn(1000)
+          .end()
+          .appendTo('#slideshow');
+      },  3000);
+    </script>
+  </body>
+</html>
